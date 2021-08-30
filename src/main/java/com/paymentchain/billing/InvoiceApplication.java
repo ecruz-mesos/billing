@@ -65,7 +65,7 @@ public class InvoiceApplication {
                 .tags(new Tag("Billing API", "All apis relating to billing service") {},
                         new Tag("Invoice", "Make invoices"));
     }
-
+    // 
     //define API key to include the header   
     private ApiKey apiKey() {
         return new ApiKey("JWT", "Authorization", "header");
